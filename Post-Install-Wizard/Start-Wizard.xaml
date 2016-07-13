@@ -1,0 +1,16 @@
+﻿<Window x:Class="Post_Install_Wizard.Start_Wizard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Post_Install_Wizard"
+        mc:Ignorable="d"
+        Title="Start Post-Install Wizard?" Height="150" Width="350" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="label" Content="Do you want to start the Post-Install Wizard?" Margin="10,10,10,0" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="14.667"/>
+        <Button x:Name="No" Content="_No" VerticalAlignment="Bottom" Margin="0,0,10,10" HorizontalAlignment="Right" Width="75" FontSize="14.667" Click="No_Click"/>
+        <Button x:Name="Yes" Content="_Yes" VerticalAlignment="Bottom" Margin="0,0,90,10" Width="75" HorizontalAlignment="Right" d:LayoutOverrides="Width" FontSize="14.667" Click="Yes_Click"/>
+
+
+    </Grid>
+</Window>

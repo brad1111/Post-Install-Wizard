@@ -1,0 +1,17 @@
+﻿<Page x:Class="Post_Install_Wizard.DelUsr"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Post_Install_Wizard"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="DelUsr">
+
+    <Grid>
+        <TextBlock x:Name="textBlock" Margin="10,10,10,62.96" TextWrapping="Wrap"><Run Text="TextBlock"/></TextBlock>
+        <TextBox x:Name="textBox" Height="23" TextWrapping="Wrap" Text="User" Margin="10,0,10,34.96" VerticalAlignment="Bottom"/>
+        <Button x:Name="button" Content="Delete _User" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="75" Margin="0,0,10,10" Click="button_Click"/>
+
+    </Grid>
+</Page>
